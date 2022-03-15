@@ -1,4 +1,4 @@
-# Maven/Travis CI Example        
+# Maven/Travis CI Example         
 
 Shows a working setup for using Maven/Travis to analyze the risk of project dependencies
 
