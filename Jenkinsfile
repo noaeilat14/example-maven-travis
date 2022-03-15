@@ -23,7 +23,7 @@ pipeline {
         stage ('Scantist') {
             steps {
                 sh '''
-                    curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
+                    curl -s https://scripts.scantist.com/scantist-bom-detect.jar --output scantist-bom-detect.jar
 
                     java -jar scantist-bom-detect.jar
                 '''
